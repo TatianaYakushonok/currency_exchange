@@ -1,0 +1,24 @@
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}*/
+
+.header {
+  color: #fff;
+  background-color: #466f1f;
+}
+
+.headerTopBar {
+  height: 30px;
+  border-bottom: 1px solid #385a19;
+}
+
+.headerMain {
+  padding: 20px 0;
+}
+
+.headerTitle {
+  font-size: 28px;
+}
