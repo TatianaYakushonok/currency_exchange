@@ -2,13 +2,13 @@
   padding: 20px 0;
 
   &Title {
+    margin-bottom: 10px;
     font-size: 20px;
   }
 
   &ItemContainer {
     display: flex;
     gap: 20px;
-    padding: 10px 0;
   }
 
   &Item {

@@ -1,4 +1,5 @@
 import Container from '../Layout/Container/Container';
+import Calculator from '../Сalculator/Сalculator';
 import style from './Rate.module.scss';
 import React from 'react';
 
@@ -10,6 +11,9 @@ class Rate extends React.Component {
       currencyRate: {},
     };
     this.currency = ['USD', 'EUR', 'CAD'];
+  }
+
+  componentDidMount() {
     this.getRate();
   }
 
@@ -50,6 +54,7 @@ class Rate extends React.Component {
           </div>
           
         </section>
+        <Calculator rate={this.state.currencyRate} />
       </Container>
     )
   }

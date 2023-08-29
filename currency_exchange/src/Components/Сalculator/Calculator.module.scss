@@ -1,0 +1,19 @@
+.calculator {
+
+  padding-bottom: 20px;
+
+  &Title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  &Container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid #92998a;
+    background-color: #ededed;
+  }
+
+}
