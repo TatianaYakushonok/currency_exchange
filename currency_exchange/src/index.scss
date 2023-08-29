@@ -10,6 +10,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 html {
   position: relative;
   box-sizing: border-box;
@@ -23,10 +29,15 @@ html {
 
 body {
   min-width: 320px;
+  min-height: 100vh;
   font-family: Inter, sans-serif;
   background-color: #ffffff;
   color: #000000;
   font-weight: 400;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 img,

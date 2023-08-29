@@ -9,9 +9,9 @@ class Navigation extends React.Component {
         <Container>
           <nav className={style.nav}>
             <ul className={style.navList}>
-              <li><a href='#!'>Главная</a></li>
-              <li><a href='#!'>Пункты обмена</a></li>
-              <li><a href='#!'>Контакты</a></li>
+              <li><a href='/'>Главная</a></li>
+              <li><a href='/exchange'>Пункты обмена</a></li>
+              <li><a href='/contacts'>Контакты</a></li>
             </ul>
           </nav>
         </Container>

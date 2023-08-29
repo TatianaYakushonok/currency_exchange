@@ -1,0 +1,34 @@
+.rate {
+  padding: 20px 0;
+
+  &Title {
+    font-size: 20px;
+  }
+
+  &ItemContainer {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  &Item {
+    flex: 1 0 auto;
+    padding: 10px;
+    border: 1px solid #92998a;
+    background-color: #ededed;
+  }
+
+  &CurrencyName {
+    font-weight: 600;
+  }
+
+  &CurrencyIn,
+  &CurrencyOut {
+    text-align: right;
+  }
+
+  &CurrencyOut {
+    display: flex;
+    justify-content: space-between;
+  }
+}
