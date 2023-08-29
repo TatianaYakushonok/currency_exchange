@@ -1,4 +1,4 @@
-import style from './Main.module.css';
+import style from './Main.module.scss';
 import React from 'react';
 
 class Main extends React.Component {

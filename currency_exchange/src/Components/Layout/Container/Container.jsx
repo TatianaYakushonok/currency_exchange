@@ -1,4 +1,4 @@
-import style from './Container.module.css';
+import style from './Container.module.scss';
 import cn from 'classnames';
 import React from 'react';
 

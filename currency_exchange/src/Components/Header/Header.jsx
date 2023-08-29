@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Header.module.css';
-import Container from '../../Leyout/Container/Container';
+import style from './Header.module.scss';
+import Container from '../Layout/Container/Container';
 import Navigation from './Navigation/Navigation';
 
 class Header extends React.Component {

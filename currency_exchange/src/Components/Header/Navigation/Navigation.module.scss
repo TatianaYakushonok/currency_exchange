@@ -4,10 +4,10 @@
 
 .nav {
   padding: 10px;
-}
 
-.navList {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+  &List {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
 }

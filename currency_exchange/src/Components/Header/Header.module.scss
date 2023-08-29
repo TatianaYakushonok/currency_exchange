@@ -8,17 +8,17 @@
 .header {
   color: #fff;
   background-color: #466f1f;
-}
 
-.headerTopBar {
-  height: 30px;
-  border-bottom: 1px solid #385a19;
-}
+  &TopBar {
+    height: 30px;
+    border-bottom: 1px solid #385a19;
+  }
 
-.headerMain {
-  padding: 20px 0;
-}
+  &Main {
+    padding: 20px 0;
+  }
 
-.headerTitle {
-  font-size: 28px;
+  &Title {
+    font-size: 28px;
+  }
 }
